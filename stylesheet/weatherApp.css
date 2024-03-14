@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 10;
+  padding: 20px;
+  background-color: blue;
+  background-image: url("../images/weather-images.jpg");
+  background-size: cover;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#weatherData {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#zipCode {
+  border-radius: 5px;
+}
