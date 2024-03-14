@@ -121,7 +121,7 @@ const getLocation = () => {
   const zipCodeValue = zipCodeInput.value;
 
   // Construct the API URL
-  let url = `http://api.geonames.org/postalCodeSearchJSON?username=${API_USERNAME}&postalcode=${zipCodeValue}`;
+  let url = `https://api.geonames.org/postalCodeSearchJSON?username=${API_USERNAME}&postalcode=${zipCodeValue}`;
 
   // Create a new XMLHttpRequest object
   let xhr = new XMLHttpRequest();
