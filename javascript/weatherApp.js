@@ -84,7 +84,7 @@ const addHtmlElements = (temperature, windSpeed, city) => {
 // Define a function to get the weather data for a given location
 const getWeather = (lat, lng, city) => {
   // Construct the API URL
-  let url = `http://api.geonames.org/findNearByWeatherJSON?username=${API_USERNAME}&lat=${lat}&lng=${lng}`;
+  let url = `https://api.geonames.org/findNearByWeatherJSON?username=${API_USERNAME}&lat=${lat}&lng=${lng}`;
 
   if (lat && lng) {
     // Create a new XMLHttpRequest object
